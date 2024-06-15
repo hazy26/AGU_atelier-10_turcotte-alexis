@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bounceInLeft{
+    animation: bounceInLeft;
+    animation-duration: 4s;
+}
+
+.rotateIn{
+    animation: rotateIn;
+    animation-duration: 4s;
+}
