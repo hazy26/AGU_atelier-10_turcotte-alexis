@@ -4,19 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AGU_atelier-10_turcotte-alexis</title>
-    <script type="module" src="./assets/js/main.js"></script>
+    <script type="module" src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </head>
   <body class="bg-cyan-100 flex flex-col items-center text-center min-h-dvh">
     <header class="bg-cyan-800 text-cyan-100 border-b border-zinc-800 w-full flex flex-col gap-2 px-6 py-24">
       <h1 class="font-thin text-3xl tracking-wider">Atelier 10 - animate.css</h1>
       <h2 class="text-lg tracking-wide font-thin">4 différentes animations.</h2>
     </header>
-    <main class="grid gap-36 grow px-10 xl:px-16 py-24">
+    <main class="wow grid gap-36 grow px-10 xl:px-16 py-36">
       <section class="animate__animated animate__backInDown flex flex-col gap-2 items-center">
         <h2 class="bg-cyan-700 px-1 font-thin text-cyan-100 text-2xl tracking-wider">backInDown</h2>
         <h3 class="bg-cyan-200 text-cyan-950 font-light px-1 text-sm tracking-wide">HTML Class</h3>
         <figure class="pt-6">
-          <img class="rounded-md" src="https://picsum.photos/id/102/320/100" alt="Image">
+          <img class="rounded-md shadow-lg" src="https://picsum.photos/id/102/320/380" alt="Image">
         </figure>
       </section>
 
@@ -24,7 +28,7 @@
         <h2 class="bg-cyan-700 text-cyan-100 px-1 font-thin text-2xl text-2xl tracking-wider">bounceInLeft</h2>
         <h3 class="bg-cyan-200 text-cyan-950 font-light px-1 text-sm tracking-wide">Règles CSS</h3>
         <figure class="pt-6">
-          <img class="rounded-md" src="https://picsum.photos/id/106/320/100" alt="Image">
+          <img class="rounded-md shadow-lg" src="https://picsum.photos/id/106/320/380" alt="Image">
         </figure>
       </section>
 
@@ -32,7 +36,7 @@
         <h2 class="bg-cyan-700 text-cyan-100 px-1 font-thin text-2xl tracking-wider">rubberBand</h2>
         <h3 class="bg-cyan-200 text-cyan-950 font-light px-1 text-sm tracking-wide">HTML Class</h3>
         <figure class="pt-6">
-          <img class="rounded-md" src="https://picsum.photos/id/116/320/100" alt="Image">
+          <img class="rounded-md shadow-lg" src="https://picsum.photos/id/116/320/380" alt="Image">
         </figure>
       </section>
 
@@ -40,17 +44,14 @@
         <h2 class="bg-cyan-700 text-cyan-100 px-1 font-thin text-2xl text-2xl tracking-wider">rotateIn</h2>
         <h3 class="bg-cyan-200 text-cyan-950 font-light px-1 text-sm tracking-wide">Règles CSS</h3>
         <figure class="pt-6">
-          <img class="rounded-md" src="https://picsum.photos/id/118/320/100" alt="Image">
+          <img class="rounded-md shadow-lg" src="https://picsum.photos/id/118/320/380" alt="Image">
         </figure>
       </section>
     </main>
     <footer class="bg-cyan-800 text-cyan-100 border-t border-zinc-800 w-full flex flex-col gap-4 px-6 py-20 tracking-wider font-light text-sm">
-      <p>Alexis Turcotte</p>
+      <p class="font-light text-xl tracking-widest">Alexis Turcotte</p>
       <p>PMI, Cours de production d'interfaces interactives</p>
       <p><time datetime="2024-06-23">23 juin 2024</time></p>
     </footer>
   </body>
 </html>
-
-
-<!-- wow.js-->
