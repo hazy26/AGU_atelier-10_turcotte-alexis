@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.bounceInLeft{
-    animation: bounceInLeft;
-    animation-duration: 4s;
+.rotateInDownRight{
+    animation: rotateInDownRight;
+    animation-duration: 2s;
 }
 
 .rotateIn{
